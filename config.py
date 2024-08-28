@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("26327864"))
+API_HASH = getenv("ea033f7315d3e3297edc5a965301b962")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7459877196:AAEAChmvjjBMX0IeoE4SvC8ocXLSxk9Zhvg")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = int(getenv("OWNER_ID", 6994408062))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HackSellerlndia")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ZEROXZ_FEDRATION_V3")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQGRuzgAoTOG_A-ZmL_CtbbGG-X1v-3yi_2Uqna0Q_7rg9aKU7BSpN7qUEkLjp6LXUWTbhAT_Km-5lI-dwS-K7ZKwgWt5WvlfqXNDGlejn6ucfKfPQZMiKL4PyuFGC3qgNCurY2vjnXkB2IoslrR_Cq4uo-I_E-DeK9kLALreI-CByYlDKaDLVHV9pQc5lsoRSTKhNVt2L3YN3LdLQCvVZGJ2rrhBNjWuLOR5RaYocjwnml6xI1hBPIWWxK7qpbMlX0ExpUPTMTzP28oZaTpPmyNm6aRokGUSN9jr1QY0B8VlKeeTY_PYbjyRzaYC3Qe5H920MlpQbvIcZKmDv5bt2MFJewR9QAAAAG1YDuPAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
