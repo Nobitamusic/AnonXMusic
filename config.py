@@ -11,7 +11,7 @@ API_ID = int(getenv("26327864"))
 API_HASH = getenv("ea033f7315d3e3297edc5a965301b962")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7459877196:AAEAChmvjjBMX0IeoE4SvC8ocXLSxk9Zhvg")
+BOT_TOKEN = getenv("7512818964:AAEIKWJ01NSX5MHUF1xG2-2lXEht340V6Yg")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1002203903226",))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6994408062))
+OWNER_ID = int(getenv("OWNER_ID", 5787354656))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,12 +35,12 @@ UPSTREAM_REPO = getenv(
     "https://github.com/AnonymousX1025/AnonXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
+GIT_TOKEN = getenv("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")
+    "GIT_TOKEN", 
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HackSellerlndia")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ZEROXZ_FEDRATION_V3")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/astheticdpsforu")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ANIME_CHAT_ANG")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,9 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("BQGRuzgAoTOG_A-ZmL_CtbbGG-X1v-3yi_2Uqna0Q_7rg9aKU7BSpN7qUEkLjp6LXUWTbhAT_Km-5lI-dwS-K7ZKwgWt5WvlfqXNDGlejn6ucfKfPQZMiKL4PyuFGC3qgNCurY2vjnXkB2IoslrR_Cq4uo-I_E-DeK9kLALreI-CByYlDKaDLVHV9pQc5lsoRSTKhNVt2L3YN3LdLQCvVZGJ2rrhBNjWuLOR5RaYocjwnml6xI1hBPIWWxK7qpbMlX0ExpUPTMTzP28oZaTpPmyNm6aRokGUSN9jr1QY0B8VlKeeTY_PYbjyRzaYC3Qe5H920MlpQbvIcZKmDv5bt2MFJewR9QAAAAG1YDuPAA", None)
+STRING1 = getenv("BQFywZ8ALd1-cehZIX6Qar00Sd5xsLLIFTywx5GETNxfcL9PjDqdDUic1ei6vGFaOaHEL_8K2QoL3XiVb25OYnl8l7Sj4dMAZCEE7FPHZWCxvvfmf8hg0lZaJ3F57d_ebLH7f-dZ1xkwwDW-G7gAjOG5Wh_2uDZq3em_ckc0_FKWKOviR1qYtKMH_r9CDjLv6eYm-83u3AzvI4VBNyoylQlFCA0yGULR6ff0K_IksK1unqXWrt5WINTkWgFBldQQdq3Lr_DKHTuWF5dA8nBthLlSo0Y-e-6eatFLHKuXiKx6A8AlyiGUWcYLUsYgMPzpVKEU4DAOVzGxWZgwiY3-hVwFrZpOsgAAAAG3_odRAAKhNVt2L3YN3LdLQCvVZGJ2rrhBNjWuLOR5RaYocjwnml6xI1hBPIWWxK7qpbMlX0ExpUPTMTzP28oZaTpPmyNm6aRokGUSN9jr1QY0B8VlKeeTY_PYbjyRzaYC3Qe5H920MlpQbvIcZKmDv5bt2MFJewR9QAAAAG1YDuPAA",)
+                
+                )
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -78,7 +80,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://graph.org//file/2c307468e920ce7ebc171.mp4"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
